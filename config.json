@@ -1,0 +1,166 @@
+{
+  "version": 1.0,
+  "title": "Assignment 5: functions",
+  "quiz": [
+    {
+      "question": "`main` is a function.",
+      "options": [
+        {
+          "value": "True",
+          "answer": true,
+          "explanation": "Correct! `main` is just a function. In C++, the function named `main` is also the function that is called when the program initially runs. When `main` ends, the program ends."
+        },
+        {
+          "value": "False",
+          "answer": false,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "question": "What is the type of the `main` function?",
+      "options": [
+        {
+          "value": "`float`",
+          "answer": false,
+          "explanation": ""
+        },
+        {
+          "value": "`string`",
+          "answer": false,
+          "explanation": ""
+        },
+        {
+          "value": "It has no type",
+          "answer": false,
+          "explanation": ""
+        },
+        {
+          "value": "`int`",
+          "answer": true,
+          "explanation": "Correct! The `main` function is **always** an `int` type."
+        }
+      ]
+    },
+    {
+      "question": "What type does the following function return?\n```cpp\nfloat GetAge() {\n  // Some code.\n}\n```",
+      "options": [
+        {
+          "value": "`int`",
+          "answer": false,
+          "explanation": ""
+        },
+        {
+          "value": "`string`",
+          "answer": false,
+          "explanation": ""
+        },
+        {
+          "value": "`float`",
+          "answer": true,
+          "explanation": "Correct! The function's type is given right before the name. In this case, the function is of type `float`."
+        },
+        {
+          "value": "`unsigned int`",
+          "answer": false,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "question": "Which of the following section covers the functions input variables?\n```cpp\n-----------a---------- ----------b-----------------\n       --------d------            ---------c-------\nstring GetDescription(int index, float temperature)\n```",
+      "options": [
+        {
+          "value": "a",
+          "answer": false,
+          "explanation": "This section includes both the type and name of the function, not the input variables."
+        },
+        {
+          "value": "b",
+          "answer": true,
+          "explanation": "Correct! This section includes both function variables: `int index` and `float temperature`."
+        },
+        {
+          "value": "c",
+          "answer": false,
+          "explanation": "This section only includes one of the input variables - `float temperature` - but does not include the other."
+        },
+        {
+          "value": "d",
+          "answer": false,
+          "explanation": "This section only includes the functions name - `GetDescription` - but does not include the input variables."
+        }
+      ]
+    }
+  ],
+  "fix_code": [
+    {
+      "question": "This code isn't formatted correctly! Can you help fix it?",
+      "hints": [
+        {
+          "line_number": -1,
+          "hint": "Functions, except for `main`, should be named `UpperCamelCase`."
+        }
+      ]
+    },
+    {
+      "question": "This code isn't formatted correctly! Can you help fix it?",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "No spaces between the input variables of functions."
+        }
+      ]
+    },
+    {
+      "question": "This code isn't compiling correctly! Can you help fix it? Be sure to also address any formatting errors.",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "Incorrect return type."
+        }
+      ]
+    },
+    {
+      "question": "This code isn't compiling correctly! Can you help fix it? Be sure to also address any formatting errors.",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "Spaces in function names."
+        }
+      ]
+    },
+    {
+      "question": "This code isn't running correctly! Can you help fix it? Be sure to also address any formatting or syntax errors.",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "Calling the wrong function because of different input variable types."
+        }
+      ]
+    },
+    {
+      "question": "This code isn't running correctly! Can you help fix it? Be sure to also address any formatting or syntax errors.",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "Bad and misleading function name."
+        }
+      ]
+    }
+  ],
+  "invent_code": [
+    {
+      "question": "Write code which is able to calculate the factorial and prints out the value. If the factorial cannot be computed, be sure to instead print out an error message.\n\nExample: `0!` is `1`.\n\nExample: `4!` is `24`.\n\nExample: `10!` is `3,628,800`.\n\nNegative numbers don't have valid factorials.",
+      "hints": []
+    },
+    {
+      "question": "### Part 1\nWe have and update to our recipe program! But first, you'll need to make a few quick fixes to this code.\n\n### Part 2\nNow, lets organize our recipe cost code to use functions! We've added a new function `CostOfIngredient(const string ingredient)` that you need to fill out. Do not change the function signature.\n\nThe function should take in an ingredient name, and return the total cost of incorporating that ingredient into the recipe. Be sure to think about the best type for all your variables.\n\n### Part 3\nUsing your new function, try adding another ingredient `jalepeno peppers`.",
+      "hints": []
+    },
+    {
+      "question": "### Part 1\nLets now try organizing our integer calculator code to use functions. Here's part of the code for a 3 number-2 operator calculator. This code is close and almost functional, but there is a bit left for you to complete.\n\nIf you're stuck about what parts should be functions, upgrade your code to a 4 number-3 operator calculator and focus on what parts are repeated again. Those parts should be the functions.\n\n### Part 2\nNow update your code to be a 7 number-6 operator calculator. Using your new functions, this should hopefully only be a few lines of code!",
+      "hints": []
+    }
+  ]
+}
