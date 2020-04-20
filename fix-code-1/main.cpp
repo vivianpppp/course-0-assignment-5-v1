@@ -14,5 +14,5 @@ int main() {
   cin >> val1;
   cout << "Enter another number: ";
   cin >> val2;
-  cout << "The sum of these numbers is: " << AddNumbers(val1, val2) << endl;
+  cout << "The sum of these numbers is: " << AddNumbers(val1, val2);
 }
