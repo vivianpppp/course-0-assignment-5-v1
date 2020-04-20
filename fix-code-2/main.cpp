@@ -2,10 +2,10 @@
 #include <string>
 using namespace std;
 
-string get_temperature() {
+string GetTemperature() {
   return "celcius";
 }
 
 int main() {
-  int temp = get_temperature();
+  string temp = GetTemperature();
 }
